@@ -10,7 +10,7 @@ namespace TaskForUsernamePassword
         {
             this.UserName = Username;
         }
-        public User(string Usarname, string Password):this(Username)
+        public User(string Username, string Password):this(Username)
         {
             this.Password = Password;
         }
