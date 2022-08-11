@@ -6,14 +6,7 @@ namespace TaskForUsernamePassword
 {
     class User
     {
-        public User(string Username)
-        {
-            this.UserName = Username;
-        }
-        public User(string Username, string Password):this(Username)
-        {
-            this.Password = Password;
-        }
+        
         private string UserName ;
         private string Password ;
         public string _userName
